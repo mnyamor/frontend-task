@@ -1,26 +1,15 @@
-Front-End Developer Recruitment Task
+Front-End Developer Task
 =================================
 
-## Project brief
-Convert the following web site design to HTML/CSS/JS.
 ![Layout](https://bitbucket.org/canterpublic/front-end-dev-recruitment-task/raw/master/layout/frontend_layout.jpg)
 
 ## Requirements
 
-1. Modify front page to correspond the given layout (app/views/main.scala.html)
-2. Use HTML5 / CSS3/Less
-3. Design a prettier Sign-Up form validation. Error messages are provided by BackEnd (after invalid form submit).
-4. Feel free to use open source frameworks/libraries. e.g. [Twitter Bootstrap](http://getbootstrap.com/2.3.2/index.html),
-[jQuery](http://jquery.com/) (both already included in main.scala.html)
-
-Bonus tasks:
-
 1. Load page images/titles dynamically from JSON api: `GET /api/photos` e.g. `http://localhost:9000/api/photos`
 2. FrontEnd form validation with html5 and/or javascript/jQuery
 
-
 ## Getting started
-1. [Download](https://bitbucket.org/canterpublic/front-end-dev-recruitment-task/get/HEAD.zip)/Clone project structure to your favourite development environment (Windows/Linux/OSX)
+1. [Download](https://github.com/mnyamor/frontend-task.git)/Clone project structure to your favourite development environment (Windows/Linux/OSX)
 2. Open project root directory in command prompt or terminal.
 3. Launch development server with command: `activator run`
 4. Now your development environment should be running on port 9000, it can be accessed on url: [http://localhost:9000](http://localhost:9000)
@@ -29,7 +18,7 @@ Bonus tasks:
 [More information about Play Framework](https://www.playframework.com/documentation/2.3.x/Home)
 
 ### Html template(s)
-Our test project contains only one template.
+Test project contains only one template.
 `<project root>/app/views/main.scala.html`
 
 ### Resources (css/js/images etc..)
@@ -65,43 +54,8 @@ also mapped to `http://localhost:9000/assets/..`
 
 
 ## Supported browsers
-Ensure that the elements work and display correctly in the following browsers:
 
 - Firefox (latest version)
 - Google Chrome (latest version)
 - Internet Explorer 11
 - Internet Explorer 8
-
-
-## Project Delivery
-Create `firstName.lastName.zip` package containing modified project structure and send it as attachment to given email address.
-
-
-## Quality Assurance
-
-What you need to do to get high QA score? Simply get **Yes** for all these questions:
-
-### General
-
-- Are all requirements met?
-
-### Precision
-
-- Is reasonable pixel precision achieved?
-
-### Browser check
-
-- Does page display and work correctly in supported browsers?
-
-### Valid HTML
-
-- Is page valid?
-
-### Semantic Markup
-
-- Are the correct tags being used?
-
-### Coding Standards
-
-- Does page follow HTML standards?
-- Does page follow CSS standards?
