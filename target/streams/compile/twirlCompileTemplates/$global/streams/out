@@ -1,0 +1,4 @@
+[0m[[31merror[0m] [0m/Users/mnyamor/Desktop/front-end-dev-recruitment-task/app/views/main.scala.html:92: Invalid '@' symbol[0m
+[0m[[31merror[0m] [0m                    <input id="email" type="email" name="email" class="form-control @if(errors.contains("email")){error}" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Please enter your email" required="required" value="@values.getOrElse("email","")"  data-error="Valid email is required.">[0m
+[0m[[31merror[0m] [0m                                                                                                                                                 ^[0m
+[0m[[31merror[0m] [0m(compile:[31mtwirlCompileTemplates[0m) Twirl compilation failed[0m

@@ -1,0 +1,264 @@
+@font-face {font-family: "Tw Cen MT Condensed Extra Bold V2";
+  src: url("../fonts/6f30da158731ad84745d00cc96e35e5e.eot"); /* IE9*/
+  src: url("../fonts/6f30da158731ad84745d00cc96e35e5e.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/6f30da158731ad84745d00cc96e35e5e.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts/6f30da158731ad84745d00cc96e35e5e.woff") format("woff"), /* chrome、firefox */
+  url("../fonts/6f30da158731ad84745d00cc96e35e5e.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts/6f30da158731ad84745d00cc96e35e5e.svg#Tw Cen MT Condensed Extra Bold V2") format("svg"); /* iOS 4.1- */
+}
+
+/*
+@media only screen and (min-width : 320px) {
+  #photos {
+    padding:65px 0 15px;
+  }
+
+  .custom-page-header {
+    border-bottom:none;
+  }
+
+  .custom-page-header h4 {
+    margin:0;
+  }
+
+  .custom-row,.no-padding {
+    padding:0;
+  }
+
+  .custom-text {
+    border-bottom:2px solid #FFF;
+    padding:0 0 40px;
+  }
+
+  .errorContainer {
+    background:#b94a48;
+    border-radius:4px;
+    color:#fff;
+    display:none;
+    margin:0 0 15px;
+    padding:15px;
+  }
+
+  .errorContainer.hasErrors,.successContainer.success {
+    display:block;
+  }
+
+  .form-contnets {
+    display:flex;
+    flex-wrap:wrap;
+    margin:0 0 40px;
+  }
+
+  .form-control.error {
+    border-color:#b94a48;
+  }
+
+  .form-control.success {
+    color:green;
+  }
+
+  .help-block.with-errors {
+    color:#b94a48;
+    font-size:14px;
+    margin:5px 0;
+    text-align:right;
+  }
+
+  .img-circle {
+    background-color:#fff;
+    border-radius:50%;
+    box-shadow:1px 1px 1px rgba(0,0,0,0.1);
+  }
+
+  .img-responsive {
+    display:block;
+    height:auto;
+    max-width:100%;
+  }
+
+  .navbar-brand.title {
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-stroke-width:.2px;
+    color:#fff;
+    font-family:"Tw Cen MT Condensed Extra Bold V2"!important;
+  }
+
+  .navbar-inverse {
+    background-color:#666;
+    border-color:#666;
+  }
+
+  .navbar-inverse .navbar-collapse,.navbar-inverse .navbar-form {
+    border-color:#666;
+  }
+
+  .navbar-inverse .navbar-toggle {
+    border-color:transparent;
+  }
+
+  .photo-container {
+    margin:0 auto;
+    text-align:center;
+  }
+
+  .photo-title {
+    font-family:Verdana,Geneva,sans-serif;
+    font-size:16px;
+    font-weight:700;
+    margin:20px 0;
+  }
+
+  .ratio {
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:0;
+    padding-bottom:100%;
+    position:relative;
+    width:100%;
+  }
+
+  .ratio:before {
+    border:4px solid #FFF;
+    border-radius:50%;
+    content:'';
+    height:100%;
+    margin-left:-50%;
+    position:absolute;
+    width:100%;
+  }
+
+  .successContainer {
+    background:#d6e9c6;
+    border-radius:4px;
+    color:#3c763d;
+    display:none;
+    margin:0 0 15px;
+    padding:15px;
+  }
+
+  body {
+    -webkit-font-smoothing:antialiased;
+    background:#fafafa;
+    height:100%;
+    margin:0;
+    overflow-x:hidden;
+    position:absolute;
+    width:100vw;
+  }
+
+  footer {
+    background:#000;
+    color:#fff;
+    font-family:Verdana,Geneva,sans-serif;
+    font-size:12px;
+    height:126px;
+    line-height:2;
+    padding:52px 0;
+  }
+
+  label.error {
+    color:#b94a48;
+  }
+}
+
+@media only screen and (min-width : 1200px) {
+  #photos {
+    padding:178px 0 8px;
+  }
+
+  .custom-btn {
+    display:block;
+    margin:15px 0 0;
+    padding:0 2px;
+  }
+
+  .custom-margin {
+    margin:auto auto auto 160px;
+    padding:0 45px 0 0;
+    text-align:center;
+  }
+
+  .custom-margin:not(:nth-child(1)) {
+    margin:0;
+  }
+
+  .custom-page-header h4 {
+    color:#000;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:18px;
+    font-weight:700;
+    line-height:1.333;
+  }
+
+  .custom-row {
+    margin-left:0;
+    margin-right:0;
+    padding:0 15px 0 0;
+    text-align:right;
+  }
+
+  .form-control {
+    width:164px;
+  }
+
+  .form-group {
+    font-size:12px;
+    margin-bottom:15px;
+    min-height:40px;
+  }
+
+  .left-column {
+    padding:0 0 0 46px;
+  }
+
+  .left-column label,.right-column label {
+    font-family:Verdana, Geneva, sans-serif;
+    font-weight:400;
+    text-align:right;
+    vertical-align:middle;
+  }
+
+  .navbar-brand.title {
+    font:normal 30px/30px "Tw Cen MT Condensed Extra Bold V2"!important;
+    height:109px;
+    padding:42px 15px;
+  }
+
+  .navbar-nav {
+   margin:37px -15px 24px 0;
+  }
+
+  .navbar-nav>li>a {
+    font-size:18px;
+    line-height:18px;
+  }
+
+  .navbar-tall {
+    height:109px;
+    min-height:109px;
+  }
+
+  .photo-title {
+    font-size:18px;
+  }
+
+  .right-column {
+    padding:0 0 0 42px;
+  }
+
+  form {
+    margin:0;
+    padding:0;
+  }
+
+  p.custom-text {
+    color:#000;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:13px;
+    line-height:1.2;
+    margin:0;
+    padding:0 0 44px;
+  }
+}*/
